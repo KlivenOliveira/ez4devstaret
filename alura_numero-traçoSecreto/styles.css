@@ -1,0 +1,43 @@
+
+:root{
+    --font-family: 'montserrat',  sans-serif;
+    --bg-color:#0AA1DD;
+    --primary-color:#E8F9FD;
+}
+
+
+body{
+    background-color:var(--bg-color);
+    color: var(--primary-color);
+    min-height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+
+h1{
+    font-size: 5em;
+    margin-bottom:5vh;
+}
+
+h3{
+    font-size:2em;
+}
+
+.mensagem{
+    font-size:1.5em;
+    margin-top:5vh;
+}
+
+.box{
+    border:5px solid  var(--primary-color);
+    display: inline-block;
+    font-size: 4em;
+    padding:0.5em;
+    margin: 0.5em;
+}

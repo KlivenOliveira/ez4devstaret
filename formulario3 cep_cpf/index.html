@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenvolvedor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="titulos">
+        <h1 id="titulo">Cadastro Desenvolvedor</h1>
+        <p id="subtitulo"><strong>Complete suas informações</strong></p>
+    </div>
+
+    <form class="formulario">
+        <fieldset class="grupo">
+        <div class="campo">
+            <label>Nome</label>
+            <input type="text" name="Nome" required>
+        </div>
+
+        <div class="campo">
+            <label>Sobrenome</label>
+            <input type="text" name="Sobrenome" required>
+        </div>
+        
+        </fieldset>
+
+        <fieldset class="grupo">
+        <div class="campo">
+            <label>Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <div class="campo">
+            <label>CPF</label>
+            <input type="cpf" name="cpf" id="cpf">
+        </div>
+
+        </fieldset>
+
+        <div class="campo">
+            <label>Cep</label>
+            <input type="text" name="email" id="email">
+
+            <label>Rua</label>
+            <input type="text" name="Rua" id="Rua">
+
+            <label>Cidade</label>
+            <input type="text" name="Cidade" id="Cidade">
+        </div>
+    
+    </fieldset>
+
+<div class="consulta">
+    <button>Consulta cep</button>
+</div>
+
+
+        <div class="campo">
+            <label>Escolha seu gênero</label>
+            <label> <input type="radio" name="genero"> Masculino</label>
+            <label> <input type="radio" name="genero"> Feminino</label>
+        </div>
+       
+
+        <div class="campo">
+            <label>Qual estado você mora</label>
+            <select id="estado" name="estado">
+            <option selected disabled value="">Selecione</option>
+            <option value="SP" name="estado">SP</option>
+            <option value="MG" name="estado">MG</option>
+            <option value="RJ" name="estado">RJ</option>
+            <option value="RS" name="estado">RS</option>
+            </select>
+        </div>
+
+        <div class="check">
+            <label for="">Conhecimentos informática</label><br><br>
+            <input type="checkbox" name="conhecimentos" value="Html"></input>
+            <label>HTML</label>
+
+            <input type="checkbox" name="conhecimentos" value="javascript"></input>
+            <label>javascript</label> 
+
+            <input type="checkbox" name="conhecimentos" value="css"></input>
+            <label>CSS</label>
+
+            <input type="checkbox" name="conhecimentos" value="Bootstrap"></input>
+            <label>Bootstrap</label>
+
+            <input type="checkbox" name="conhecimentos" value="Angular"></input>
+            <label>Angular</label>
+
+            <input type="checkbox" name="conhecimentos" value="PHP"></input>
+            <label>PHP</label>
+
+            <input type="checkbox" name="conhecimentos" value="C#"></input>
+            <label>C#</label>
+        </div>
+        <br>
+        <br>
+    <div class="campo">
+        <textarea rows="6" style="width:380px;"></textarea>
+    </div>
+
+    <button type="submit"> Concluir</button>
+
+    </form>
+    
+</body>
+</html>

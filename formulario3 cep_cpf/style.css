@@ -1,0 +1,74 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.campo {
+    margin-bottom: 9px;
+}
+
+body{   
+    background-color: antiquewhite;
+    color: #59429d;
+    margin-left:35%;
+    margin-top:2%;
+    justify-content: center;
+    font-size:1em;
+}
+.campo input:focus,  .campo select:focus,  .campo textarea:focus{
+    background-color:bisque
+}
+
+.consulta{
+    position: absolute;
+    right:49%;
+    top:29% ;
+}
+
+.check{
+    display:inline-block;
+    padding:0,2em;
+}
+
+.titulos{
+    margin-bottom:1% ;
+    font-family: sans-serif;
+    color: #380B61;
+}
+
+#titulo{
+    margin-left: 7%;
+}
+
+#subtitulo {
+    margin-left:14%;
+}
+
+.campo label{
+    display: block;
+    margin-bottom:0,2em;
+}
+
+.campo__cep label{
+    display: block;
+    margin-bottom:0,2em;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right:2em;
+}
+
+fieldset {
+    border: 0px;
+}
+
+button{
+    width: 100px; ;
+    position:absolute;
+    right:52%;
+    color: #59429d;
+    background:antiquewhite;
+    border-radius:5px;
+    box-shadow:5px 5px 5px black ;
+}
